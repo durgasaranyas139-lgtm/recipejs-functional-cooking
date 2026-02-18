@@ -1,68 +1,15 @@
-.recipe-card {
-  border: 1px solid #ddd;
-  padding: 16px;
-  margin: 12px;
-  border-radius: 8px;
-}
-
-.toggle-btn {
-  margin: 6px 6px 6px 0;
-  padding: 6px 10px;
+.favorite-btn {
   cursor: pointer;
-}
-
-.steps-container,
-.ingredients-container {
-  display: none;
-  margin-top: 10px;
-}
-
-.steps-container.visible,
-.ingredients-container.visible {
-  display: block;
-}
-
-.step {
-  margin-left: 0;
-}
-
-.step.level-1 { margin-left: 20px; }
-.step.level-2 { margin-left: 40px; }
-.step.level-3 { margin-left: 60px; }
-
-.active {
-  background: #333;
-  color: white;
-.controls {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.controls button {
-  padding: 8px 14px;
-  margin: 4px;
+  font-size: 18px;
+  background: none;
   border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  background-color: #eee;
-  font-weight: 600;
 }
 
-.controls button:hover {
-  background-color: #ddd;
+.favorite-btn.active {
+  color: red;
 }
 
-.controls button.active {
-  background-color: #ff7043;
-  color: white;
-}
-
-/* simple recipe card */
-.recipe-card {
-  border: 1px solid #ccc;
-  padding: 12px;
-  margin: 10px;
-  border-radius: 8px;
+#recipe-counter {
+  font-weight: bold;
+  margin: 10px 0;
 }
