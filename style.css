@@ -1,3 +1,38 @@
+.recipe-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 12px;
+  border-radius: 8px;
+}
+
+.toggle-btn {
+  margin: 6px 6px 6px 0;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.steps-container,
+.ingredients-container {
+  display: none;
+  margin-top: 10px;
+}
+
+.steps-container.visible,
+.ingredients-container.visible {
+  display: block;
+}
+
+.step {
+  margin-left: 0;
+}
+
+.step.level-1 { margin-left: 20px; }
+.step.level-2 { margin-left: 40px; }
+.step.level-3 { margin-left: 60px; }
+
+.active {
+  background: #333;
+  color: white;
 .controls {
   margin: 20px;
   display: flex;
