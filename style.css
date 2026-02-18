@@ -33,4 +33,36 @@
 .active {
   background: #333;
   color: white;
+.controls {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.controls button {
+  padding: 8px 14px;
+  margin: 4px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #eee;
+  font-weight: 600;
+}
+
+.controls button:hover {
+  background-color: #ddd;
+}
+
+.controls button.active {
+  background-color: #ff7043;
+  color: white;
+}
+
+/* simple recipe card */
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 8px;
 }
